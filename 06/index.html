@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-Invoice</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./Invoice.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <ul id="result">
+    </ul>
+    <main>
+        <form>
+            <h1>Cadastro de Produto</h1>
+            <label for="name">Nome:</label>
+            <input id="name" type="text" />
+
+            <label for="quantify">Quantidade:</label>
+            <input id="quantify" type="text" />
+
+            <label for="value">Valor: </label>
+            <input id="value" type="number" />
+
+            <br><br>
+            <input type="button" value="INSERIR" onclick="insertProduct()">
+            <br>
+            <input type="button" value="LISTAR" onclick="getProducts()">
+        </form>
+    </main>
+</body>
+</html>

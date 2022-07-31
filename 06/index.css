@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    list-style: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: red;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    background-color: blue;
+}
+#result {
+    position: absolute;
+    top: 0;
+    margin: auto;
+}
